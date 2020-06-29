@@ -11,13 +11,15 @@
     <nav>
       <ol>
         <li>
-          <a href="">Portafolio</a>
+          <a href="#portafolio">Portafolio</a>
+          // #p para poner rutas directas dentro de un mismo archivo por id
+          // ./ para poder rutas directar externas de un mismo proyecto (./ruta/archivo)
         </li>
         <li>
-          <a href="">Experiencia</a>
+          <a href="#experiencia">Experiencia</a>
         </li>
         <li>
-          <a href="">Trabajemos Juntos</a>
+          <a href="#contacto">Trabajemos Juntos</a>
         </li>
       </ol>
     </nav>
@@ -28,7 +30,7 @@
     </h1>
     <img src="css/images/Foto_portada.jpg" alt="Imagen portada" width="400" height="500">
   </section>
-  <section>
+  <section id="portafolio">
     <h2>Portafolio(Proyectos Destacados)</h2>
     <article>
       <h3>Dogtor</h3>
@@ -41,7 +43,7 @@
       <img src="css/images/DogTor.png" alt="">
     </article>
   </section>
-  <section>
+  <section id="experiencia">
     <h2>Más sobre mi experiencia</h2>
     <article>
       <figure>
@@ -49,10 +51,10 @@
       </figure>
       <h3>Mujeres de ciencia 2020</h3>
       <p>Evento de la inclusión de la mujer en el mundo de la tecnología, donde invitamos, reconocemos y premiamos la labor de la mujer en el mundo de la ciencia y la tecnología</p>
-      <a href="">Ver Evento</a>
+      <a href="https://www.youtube.com/watch?v=S4eoEdJ60X8&list=RDS4eoEdJ60X8&start_radio=1" target="_blank">Ver Evento</a>
     </article>
   </section>
-  <section>
+  <section id="contacto">
     <form action="/suscripcion/">
       <h3>¿Creamos algo juntos? </h3>
       <input type="text" placeholder="Déjame tu Email" id="email">
